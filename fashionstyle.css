@@ -71,6 +71,7 @@
     opacity: 0.7; /* Reduce opacity to blur the image */
     transition: opacity 0.4s ease-in-out; /* Smooth transition */
     color: white; /* Display text in white for better contrast */
+    background-color:black;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
   }
   
