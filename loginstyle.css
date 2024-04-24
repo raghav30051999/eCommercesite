@@ -1,0 +1,42 @@
+*{
+    /* background-color: aqua; */
+}
+.Loginpage {
+    width: 97%;
+    color: black;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 1.5vw;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    height: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+.headertext{
+  width:94%;
+  font-size:22px;
+  padding-left:5vw;
+  border-radius:10px;
+  border:1.9px solid rgba(103, 117, 113,0.45) ;
+  margin:0;
+  font-family:sans-serif;
+  background-color:rgba(3, 199, 143,0.25);
+  background-size:none;
+  height:6vh;
+  align-content: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+.logindetails{
+    height:auto;
+    font-family:sans-serif;
+    width:45vw;
+    align-items: center;
+}
+  
+.logindetails.clicked{
+    
+}
