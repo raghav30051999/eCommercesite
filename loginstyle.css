@@ -1,42 +1,76 @@
-*{
-    /* background-color: aqua; */
-}
-.Loginpage {
-    width: 97%;
-    color: black;
-    font-size: 120%;
-    font-weight: bold;
-    padding: 1.5vw;
-    border-radius: 10px;
-    font-family: sans-serif;
-    text-align: center;
-    align-items: center;
-    height: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-.headertext{
-  width:94%;
-  font-size:22px;
-  padding-left:5vw;
-  border-radius:10px;
-  border:1.9px solid rgba(103, 117, 113,0.45) ;
-  margin:0;
-  font-family:sans-serif;
-  background-color:rgba(3, 199, 143,0.25);
-  background-size:none;
-  height:6vh;
-  align-content: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  display:inline-block;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
 }
 
-.logindetails{
-    height:auto;
-    font-family:sans-serif;
-    width:45vw;
+main {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
-  
-.logindetails.clicked{
-    
+
+.container {
+    background-color: #fff;
+    padding: 10vh 20vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+  	border-radius:15px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #46a049;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 15px;
 }
