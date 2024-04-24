@@ -44,12 +44,15 @@
   font-weight:bold;
 }
  .login:hover {
-    font-size: 3vw;
-    opacity: 0.7; /* Reduce opacity to blur the image */
+    font-size: 1vw;
     transition: opacity 0.4s ease-in-out; /* Smooth transition */
     color: white; /* Display text in white for better contrast */
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
   }
+.login.clicked{
+  background-color:white;
+  color:black;
+}
 .fashion,
 .electronics,
 .furniture,
