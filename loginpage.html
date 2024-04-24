@@ -1,35 +1,31 @@
-<!-- 
-Online HTML, CSS and JavaScript editor to run code online.
--->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="loginstyle.css" />
-  <title>Shopper's bag - Online Shopping Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper's Bag</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <body>
-  <div>
-  <h1 class="headertext">
-	Shopper's bag
-  </h1>
-  </div>
-  <forms class="Loginpage">
-    <fieldset>
-      <legend>Login Details</legend>
-      <label for="userInput" class="logindetials">Username: </label>
-    <input class="logindetails" type="text" id="userInput" value="Mobile Number or e-Mail" onfocus="if(this.value=='Enter your text here') this.value='';"/>
-    <label for="userInput" class="logindetials">Password: </label>
-    <input class="logindetails" type="password" id="userInput" value="" onfocus="if(this.value=='Enter your text here') this.value='';"/>
-    
-</fieldset>
-    
-  </forms>
-  <script src="script.js"></script>
+    <main>
+        <div class="container">
+<!--             <img src="logo.png" alt="Login Logo" class="logo"> -->
+            <h1>Login with </h1>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email or Mobile Number</label>
+                    <input type="email" id="email" name="email" required/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                  <input type="password" id="password" name="password" required/><br></br>
+                    <a href="#" >Forgot password?</a>
+                </div>
+                <button type="submit">Sign in</button>
+            </form>
+            <p>New user? <a href="#">Create an account</a></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
-
 </html>
