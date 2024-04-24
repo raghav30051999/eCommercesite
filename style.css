@@ -1,0 +1,205 @@
+*{
+  justify-content:center;
+}
+
+.headertext{
+  width:94%;
+  font-size:22px;
+  padding-left:5vw;
+  border-radius:10px;
+  border:1.9px solid rgba(103, 117, 113,0.45) ;
+  margin:0;
+  font-family:sans-serif;
+  background-color:rgba(3, 199, 143,0.25);
+  background-size:none;
+  height:center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display:inline-block;
+}
+
+.search{
+  margin:1vh 5vw;
+  padding-left:35vw;
+  display:inline-block;
+  height:7.5vh;
+  border:1.9px solid rgba(80, 192, 160, 0.45);
+  border-radius:10px;
+  align-self:center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login,.signup{
+  font-size:18px;
+  width:max-content;
+  margin-left:1vw;
+  margin-right:1vw;
+  margin-top:1vh;
+  height:auto;
+  padding:0.8% 1.5%;
+  text-align:center;
+  border:3px solid white;
+  border-radius:20px;
+  background-color:rgba(10, 16, 15, 0.868);
+  color:white;
+  font-weight:bold;
+}
+ .login:hover,.signup:hover {
+    color: black; /* Display text in white for better contrast */
+    background-color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+  }
+.login.clicked, .signup.clicked{
+  background-color:white;
+  color:black;
+}
+
+
+.fashion,
+.electronics,
+.furniture,
+.groceries{
+  font-size:large;
+  width:23vw;
+  padding:0 7vw;
+  background-color:rgba(3, 199, 143,0.25);
+  color:black;
+  height:10vh;
+  border:0.85px solid rgba(103, 117, 113,0.45);
+  border-radius:10px;
+  font-weight:bold;
+  transition: background-color 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.fashion:hover, .electronics:hover,
+.furniture:hover,
+.groceries:hover{
+  color:white;
+  background-color:black;
+}
+
+.container1 {
+  width:98%;
+  height:10%;
+  display: flex;
+  justify-content:center;
+  margin:0% 2%;
+  z-index:1;
+
+}
+
+.container2{
+  margin:0% 0.3%;
+  padding: 1% 0%;
+  border-radius:20px;
+  width:98vw;
+  height:40vw;
+  display:inline-flex;
+  background-image:url("black-friday-elements-assortment.jpg");
+  background-size:100% 100%;
+  justify-content: center;
+}
+
+
+.covertext{
+  color:black;
+  font-size:3vw;
+  font-weight:bold;
+  font-family:sans-serif;
+  margin-left:20%;
+  margin-right:50%;
+  margin-top:20%;
+  margin-bottom:40%;
+  justify-content: center;
+  display: inline-block;
+  }
+
+  .footer{
+    width:97vw;
+    height:center;
+    border-radius:10px;
+    margin:1vw 1vw;
+    font-family:sans-serif;
+    background-color:black;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 7%;
+  }
+
+  .arrows{
+    background-color:rgba(249, 247, 244,0.4);
+    border-radius:20px;
+    border-width: 0px;
+    height:20%;
+    align-self: center;
+    width:4vw;
+  }
+  .arrows.:hover{
+    color:white;
+    background-color:black;
+  }
+
+  .help,
+  .about,
+  .connect{
+      width:30%;
+      color:antiquewhite;
+      font-size:16px;
+      line-height:0px;
+      margin-top:10px;
+      top:30px;
+      bottom:20px;
+      flex-grow: 3%;
+      margin-left:4vw;
+    }   
+
+@keyframes rollImages {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+.fashion,
+.electronics,
+.furniture,
+.groceries{
+  font-size:14px;
+  width:auto;
+  padding:0 2vw;
+  background-color:rgba(3, 199, 143,0.25);
+  color:black;
+  height:10vh;
+  border:0.85px solid rgba(103, 117, 113,0.45);
+  border-radius:10px;
+  font-weight:bold;  
+}
+
+.footer{
+      width:98%;
+      height:center;
+      border-radius:10px;
+      margin:1vh 1vw;
+      font-family:sans-serif;
+      background-color:black;
+      display:flex;
+      flex-direction: column;
+      flex-grow: 7%;
+  }
+  .help,
+  .about,
+  .connect{
+      width:100%;
+      color:antiquewhite;
+      text-align:left;
+      font-size:16px;
+      line-height:0px;
+      margin-top:10px;
+      top:30px;
+      bottom:20px;
+      flex-grow: 3%;
+      margin-left:4vw;
+  }   
+}
