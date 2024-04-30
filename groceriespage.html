@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="groceriesstyle.css" />
+  <title>Shopper's bag - Online Shopping Website</title>
+</head>
+
+<body>
+  <div class="headertext"><h1>Shopper's Bag</h1></div>
+  <div class="groceriespage">
+    Explore Our Furniture
+  </div>
+  <div class="buttons">
+    <button class="dairy" onclick="showDairy()">Dairy Products</button>
+    <button class="breads" onclick="showBreads()">Bread</button>
+    <button class="beverages" onclick="showBeverages()">Beverages</button>
+  </div>
+  <div id="dairyList" class="hidden">
+    <table>
+      <div class="groceriespage">
+        All Products
+      </div>
+      <tr>
+        <td style="width: 30%;
+        height:60vh;
+        background-image:url(dairyimg1.jpg);
+        background-size: 100% 100%;
+        object-fit: cover;"></td>
+        <td><h1>Farm Fresh</h1>
+          <h2> Farm Fresh 500ml Tetrapack  </h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹179/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹89/-</p></div> 
+        <h4>Quantity: 250ml & 1000ml</h4>
+        <button class="buttontext">Add to Cart</button>
+        <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 30%;
+        height:60vh;
+        background-image:url(dairyimg2.jpg);
+        background-size: 100% 100%;
+        object-fit: fill;"></td>
+        <td><h1>Amul</h1>
+          <h2> Amul 200g|10 Sliced Cheese </h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹339/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹169/-</p></div> 
+        <h4>Quantity: 500g & 1000g</h4>
+        <button class="buttontext">Add to Cart</button>
+        <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 30%;
+        height:60vh;
+        background-image:url(dairyimg3.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td><h1>Milky Mist</h1>
+          <h2> Milky Mist Yogurt 1 Kg Pack</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹399/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹199/-</p></div> 
+          <h4>Quantity: 250g & 500g </h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(dairyimg4.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td>
+        <h1>Heritage</h1>
+          <h2>Heritage Panner 200g Pack</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹229/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹115/-</p></div> 
+          <h4>Quantity: 100g & 500g</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="breadsList" class="hidden">
+    <table>
+      <div class="groceriespage">
+        All Products
+      </div>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(breadsimg1.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td><h1>Harvest Gold</h1>
+          <h2>Harvest Gold 350g White Bread  </h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.49/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹25/-</p></div> 
+        <h4>Quantity: 500g & 1000g</h4>
+        <button class="buttontext">Add to Cart</button>
+        <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(breadsimg2.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td>
+          <h1>Britannia</h1>
+          <h2>Britannia 400g Brown Bread </h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹79/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹39/-</p></div> 
+          <h4>Quantity: 250g & 1000g</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(breadsimg3.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"> </td>
+        <td><h1>American Bakers</h1>
+          <h2>American Bakers 400g Furit Bread</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹69/-</p><h3>50% off</h3><p class="sellingprice">Sale price ₹34/-</p></div> 
+          <h4>Quantity: 250g & 1000g</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(breadsimg4.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td>
+        <h1>English Oven</h1>
+          <h2>English Oven 400g Multigrain Bread</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹99/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹49/-</p></div> 
+          <h4>Quantity: 250g & 1000g</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="beveragesList" class="hidden">
+    <table>
+      <div class="groceriespage">
+        All Products
+      </div>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(beveragesimg1.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td><h1>Alo Fruit</h1>
+          <h2>Alo Fruit Juice 200ml Combo -Pack of 48 </h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹2,899/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹1,449/-</p></div> 
+        <h4>Quantity:250ml, 500ml & 1000ml</h4>
+        <button class="buttontext">Add to Cart</button>
+        <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(beveragesimg2.jpeg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td>
+          <h1>Arka</h1>
+          <h2>Arka Freshquo Fruit Juice 500ml Combo - Pack of 04</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹499/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹249/-</p></div> 
+          <h4>Quantity:250ml, 500ml & 1000ml</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(beveragesimg3.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td><h1>McGrif</h1>
+          <h2>McGrif Fruit Juice 500ml Combo - Pack of 03</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹499/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹249/-</p></div> 
+          <h4>Quantity:250ml, 500ml & 1000ml</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+      <tr>
+        <td style=" width: 30%; 
+        height:60vh;
+        background-image:url(beveragesimg4.jpg);
+        background-size:100% 100%;
+        object-fit: cover;"></td>
+        <td>
+        <h1>Cocacola</h1>
+          <h2>Cocacola Coke 300ml Combo - Pack of 06</h2>
+          <div class="star">&#9733; <p style = "color:black; font-weight: bold; display:inline-block; margin:0">5.0</p></div>
+          <div><p class="discountedprice"> MRP.₹499/-</p><h3>50% off</h3><p class="sellingprice">Sale price: ₹249/-</p></div> 
+          <h4>Quantity:250ml, 500ml & 1000ml</h4>
+          <button class="buttontext">Add to Cart</button>
+          <button class="buttontext">Buy Now</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="groceriesscript.js"></script>
+</body>
+
+</html>
