@@ -46,23 +46,24 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 .mobiles,
 .computers,
 .televisions {
-width: 32%;
-margin-top: 1.5vh;
-margin-bottom: 1.5vh;
-padding: 1vw;
-margin: 1vw 0.5vw;
-color: black;
-font-size: 0px;
-font-weight: bold;
-border-radius: 10px;
-border: 1.9px solid rgba(103, 117, 113, 0.45);
-font-family: sans-serif;
-display: inline;
-background-color: rgba(3, 199, 143, 0.25);
-text-align: center;
-height: 50vh;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-cursor: pointer;
+  width: 32%;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  padding: 1vw;
+  margin: 1vw 0.5vw;
+  color: black;
+  font-size: 0px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1.9px solid rgba(103, 117, 113, 0.45);
+  font-family: sans-serif;
+  display: inline-block;
+  background-color: rgba(3, 199, 143, 0.25);
+  text-align: center;
+  height: 50vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  background-size: cover;
 }
 
 .mobiles{
@@ -107,6 +108,13 @@ border-radius:10px;
 line-height:3vh;
 }
 
+.tdstyle{
+  width: 30%;
+  height:60vh;
+  background-size: 100% 60%;
+  background-size:cover;
+}
+
 td:nth-child(2)
 {
 width: 70%;
@@ -124,4 +132,158 @@ font-size: x-large;
 .star {
   font-size: 24px;
   color:rgba(3, 199, 143, 0.70);
+}
+
+@media only screen and (max-width: 1024px) {
+  .headertext {
+    font-size: 20px;
+    padding-left: 3vw;
+  }
+  .electronicspage {
+    font-size: 200%;
+    padding: 1vw;
+  }
+  .buttontext {
+    font-size: medium;
+    width: 30vw;
+    padding: 0 5vw;
+  }
+  .mobiles, .computers, .televisions {
+    width: 32%;
+    height: 50vh;
+    font-size: 2vw;
+    color:white;
+  }
+
+  td:nth-child(1){
+    width:50%;
+    background-position-x: center;
+  }
+
+  td:nth-child(2){
+    width:50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headertext {
+    font-size: 14px;
+    padding-left: 2vw;
+    width:99%;
+  }
+  .electronicspage {
+    font-size: 150%;
+    padding: 1vw;
+    width:99%;
+  }
+  .buttontext {
+    font-size: small;
+    width: 40vw;
+    padding: 0 4vw;
+  }
+  .mobiles, .computers, .televisions {
+    width: 99%;
+    height: 60vh;
+    margin: 2vw auto;
+    font-size: 8vw;
+    color: white;
+    background-size:fill;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    width: 95%;
+    margin: 2vh 2.5vw;
+  }
+  td, th {
+    font-size: small;
+    padding: 6px;
+  }
+
+  td:nth-child(1) {
+    width: 50%;
+    height: 50vh;
+  }
+
+  td:nth-child(2) {
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .headertext {
+    font-size: 6px;
+    padding-left: 2vw;
+    width:99%;
+  }
+  .electronicspage {
+    font-size: 70%;
+    padding: 1vw;
+    width:99%;
+  }
+  .buttontext {
+    font-size: small;
+    width: 40vw;
+    padding: 0 4vw;
+    height:5vh;
+  }
+  .mobiles, .computers, .televisions {
+    width: 99%;
+    height: 35vh;
+    margin: 2vw auto;
+    font-size: 8vw;
+    color:white;
+    background-size:fill;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    width: 95%;
+    margin: 2vh 2.5vw;
+  }
+
+  td, th {
+    font-size: small;
+    padding: 6px;
+    display: block;
+  }
+  .tdstyle{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  td:nth-child(1){
+    width:95%;
+    height:50vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-position-x:center ;
+  }
+
+  td:nth-child(2) {
+    width: 95%;
+    height: 40vh;
+    font-size:7px;
+    line-height:10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top:-1px;
+  }
+  
+  .discountedprice
+  {
+    text-decoration: line-through;
+    font-size: medium;
+  }
+  
+  .sellingprice{
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .star {
+    font-size: 14px;
+    color: rgba(3, 199, 143, 0.70);
+  }
 }

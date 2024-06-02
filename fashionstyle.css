@@ -3,124 +3,122 @@
   font-size:22px;
   padding-left:5vw;
   border-radius:10px;
-  border:1.9px solid rgba(103, 117, 113,0.45) ;
+  border:1.9px solid rgba(103, 117, 113,0.45);
   margin-bottom:1%;
   font-family:sans-serif;
   background-color:rgba(3, 199, 143,0.25);
   background-size:none;
-  height:center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   display:inline-block;
 }
 
 .fashionpage {
-    width: 97%;
-    color: black;
-    font-size: 220%;
-    font-weight: bold;
-    padding: 1.5vw;
-    border-radius: 10px;
-    border: 1.9px solid rgba(103, 117, 113, 0.45);
-    font-family: sans-serif;
-    background-color: rgba(3, 199, 143, 0.25);
-    text-align: center;
-    align-items: center;
-    height: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
-  .buttontext{
-  font-size:large;
-  width:23vw;
-  padding:0 7vw;
-  background-color:rgba(20, 211, 169, 0.39);
-  color:black;
-  height:10vh;
-  border:0.85px solid rgba(103, 117, 113,0.45);
-  border-radius:10px;
-  font-weight:bold;
+  width: 97%;
+  color: black;
+  font-size: 220%;
+  font-weight: bold;
+  padding: 1.5vw;
+  border-radius: 10px;
+  border: 1.9px solid rgba(103, 117, 113, 0.45);
+  font-family: sans-serif;
+  background-color: rgba(3, 199, 143, 0.25);
+  text-align: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttontext{
+  font-size: large;
+  width: 23vw;
+  padding: 0 7vw;
+  margin: 1vw 0;
+  background-color: rgba(20, 211, 169, 0.39);
+  color: black;
+  height: 10vh;
+  border: 0.85px solid rgba(103, 117, 113, 0.45);
+  border-radius: 10px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
+}
 
-  .kids,
-  .men,
-  .women {
-    width: 32%;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
-    padding: 1vw;
-    margin: 1vw 0.5vw;
-    color: black;
-    font-size: 0px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 1.9px solid rgba(103, 117, 113, 0.45);
-    font-family: sans-serif;
-    display: inline;
-    background-color: rgba(3, 199, 143, 0.25);
-    text-align: center;
-    height: 50vh;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-    cursor: pointer;
-  }
+.kids, .men, .women {
+  width: 32%;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  padding: 1vw;
+  margin: 1vw 0.5vw;
+  color: black;
+  font-size: 0px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1.9px solid rgba(103, 117, 113, 0.45);
+  font-family: sans-serif;
+  display: inline-block;
+  background-color: rgba(3, 199, 143, 0.25);
+  text-align: center;
+  height: 50vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  background-size: cover;
+}
 
-  .kids{
-    background-image: url("Fashionpagekidsimg1.jpg"); /* Maintain background image */
-    background-size:cover;
-  }
+.kids{
+  background-image: url("Fashionpagekidsimg1.jpg");
+}
 
-  .men{
-    background-image: url("Fashionpagemenimg2.jpg"); /* Maintain background image */
-    background-size:cover;
-  }
+.men{
+  background-image: url("Fashionpagemenimg2.jpg");
+}
 
-  .women{
-    background-image: url("Fashionpagewomenimg3.jpg"); /* Maintain background image */
-    background-size:cover;
-  }
-  
-  /* New style for hover effect */
-  .kids:hover,.men:hover,.women:hover {
-    font-size: 3vw;
-    opacity: 0.7; /* Reduce opacity to blur the image */
-    transition: opacity 0.4s ease-in-out; /* Smooth transition */
-    color: white; /* Display text in white for better contrast */
-    background-color:black;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
-  }
-  
-  .hidden {
-    display: none;
-  }
+.women{
+  background-image: url("Fashionpagewomenimg3.jpg");
+}
 
-  /* Styling the table */
+.kids:hover, .men:hover, .women:hover {
+  font-size: 3vw;
+  opacity: 0.7;
+  transition: opacity 0.4s ease-in-out;
+  color: white;
+  background-color: black;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+.hidden {
+  display: none;
+}
+
 table {
   margin-top: 2vh;
-  width: 99%; /* Set the width of the table */
-  /* border-collapse: collapse; Collapse the borders of table cells */
-  margin:1vh 1vw;
+  width: 99%;
+  margin: 1vh 1vw;
   border-radius: 10px;
 }
 
-/* Styling table cells */
 td, th {
-  border: 1px solid rgba(0, 0, 0, 0.2); /* Add borders to cells */
-  padding: 8px; /* Add padding inside cells */
-  border-radius:10px;  
-  line-height:3vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 10px;
+  line-height: 3vh;
 }
 
-td:nth-child(2)
-{
-  width: 70%; /* Set width for the first column */
+.tdstyle{
+  width: 30%;
   height:60vh;
+  background-size: 100% 60%;
+  background-size:cover;
+}
+
+td:nth-child(2) {
+  width: 70%;
+  height: 60vh;
 }
 
 .discountedprice{
   text-decoration: line-through;
   font-size: large;
 }
+
 .sellingprice{
   font-weight: bold;
   font-size: x-large;
@@ -128,5 +126,146 @@ td:nth-child(2)
 
 .star {
   font-size: 24px;
-  color:rgba(3, 199, 143, 0.70);
+  color: rgba(3, 199, 143, 0.70);
+}
+
+@media only screen and (max-width: 1024px) {
+  .headertext {
+    font-size: 20px;
+    padding-left: 3vw;
+  }
+  .fashionpage {
+    font-size: 200%;
+    padding: 1vw;
+  }
+  .buttontext {
+    font-size: medium;
+    width: 30vw;
+    padding: 0 5vw;
+  }
+  .kids, .men, .women {
+    width: 32%;
+    height: 50vh;
+    font-size: 2vw;
+    color:white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headertext {
+    font-size: 14px;
+    padding-left: 2vw;
+    width:99%;
+  }
+  .fashionpage {
+    font-size: 150%;
+    padding: 1vw;
+    width:99%;
+  }
+  .buttontext {
+    font-size: small;
+    width: 40vw;
+    padding: 0 4vw;
+  }
+  .kids, .men, .women {
+    width: 99%;
+    height: 50vh;
+    margin: 2vw auto;
+    font-size: 0vw;
+    background-size:fill;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    width: 95%;
+    margin: 2vh 2.5vw;
+  }
+  td, th {
+    font-size: small;
+    padding: 6px;
+  }
+  td:nth-child(2) {
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .headertext {
+    font-size: 6px;
+    padding-left: 2vw;
+    width:99%;
+  }
+
+  .fashionpage {
+    font-size: 70%;
+    padding: 1vw;
+    width:99%;
+  }
+
+  .buttontext {
+    font-size: small;
+    width: 40vw;
+    padding: 0 4vw;
+    height:5vh;
+  }
+
+  .kids, .men, .women {
+    width: 99%;
+    height: 35vh;
+    margin: 2vw auto;
+    font-size: 8vw;
+    color:white;
+    background-size:fill;
+    background-repeat: no-repeat;
+  }
+
+  table {
+    width: 95%;
+    margin: 2vh 2.5vw;
+  }
+
+  td, th {
+    font-size: small;
+    padding: 6px;
+    display: block;
+  }
+
+  .tdstyle{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  td:nth-child(1){
+    width:95%;
+    height:50vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-size:100% 130%;
+    background-position-y:top ;
+  }
+
+  td:nth-child(2) {
+    width: 95%;
+    height: 40vh;
+    font-size:7px;
+    line-height:9px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top:-1px;
+  }
+  .discountedprice{
+    text-decoration: line-through;
+    font-size: medium;
+  }
+  
+  .sellingprice{
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .star {
+    font-size: 14px;
+    color: rgba(3, 199, 143, 0.70);
+  }
 }

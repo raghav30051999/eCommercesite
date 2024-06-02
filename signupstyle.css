@@ -54,7 +54,7 @@ label {
 
 input[type="email"],
  [type="password"] {
-    width: 25vw;
+    width: 45vw;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -87,3 +87,23 @@ a:hover {
 p {
     margin-top: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    .headertext{
+        width:94%;
+        font-size:14px;
+        padding-left:5vw;
+        border-radius:10px;
+        align-self: center;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .headertext{
+        width:94%;
+        font-size:12px;
+        padding-left:5vw;
+        border-radius:10px;
+        align-self: center;
+    }
+  }

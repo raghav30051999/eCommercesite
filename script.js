@@ -1,6 +1,12 @@
 function showKidsWear() {
   var kidsList = document.getElementById("kidsList");
   kidsList.style.display = "block";
+  const lineHeight = 20; 
+      const scrollAmount = 20 * lineHeight;
+      window.scrollBy({
+        top: scrollAmount,
+        behavior: 'smooth' 
+      });
   
   var mensList = document.getElementById("mensList");
   mensList.style.display = "none";
@@ -12,6 +18,12 @@ function showKidsWear() {
 function showMensWear() {
   var mensList = document.getElementById("mensList");
   mensList.style.display = "block";
+  const lineHeight = 20; 
+      const scrollAmount = 20 * lineHeight;
+      window.scrollBy({
+        top: scrollAmount,
+        behavior: 'smooth' 
+      });
   
   var kidsList = document.getElementById("kidsList");
   kidsList.style.display = "none";
@@ -29,6 +41,12 @@ function showWomensWear() {
 
   var womensList = document.getElementById("womensList");
   womensList.style.display = "block";
+  const lineHeight = 20; 
+      const scrollAmount = 20 * lineHeight;
+      window.scrollBy({
+        top: scrollAmount,
+        behavior: 'smooth' 
+      });
 }
 
 var images = [
