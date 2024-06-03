@@ -153,25 +153,30 @@ td:nth-child(2) {
 
 @media only screen and (max-width: 768px) {
   .headertext {
-    font-size: 14px;
+    font-size: 6px;
     padding-left: 2vw;
     width:99%;
   }
+
   .fashionpage {
-    font-size: 150%;
+    font-size: 70%;
     padding: 1vw;
     width:99%;
   }
+
   .buttontext {
     font-size: small;
     width: 40vw;
     padding: 0 4vw;
+    height:5vh;
   }
+
   .kids, .men, .women {
     width: 99%;
-    height: 50vh;
+    height: 35vh;
     margin: 2vw auto;
-    font-size: 0vw;
+    font-size: 8vw;
+    color:white;
     background-size:fill;
     background-repeat: no-repeat;
   }
@@ -180,13 +185,49 @@ td:nth-child(2) {
     width: 95%;
     margin: 2vh 2.5vw;
   }
+
   td, th {
     font-size: small;
     padding: 6px;
+    display: block;
   }
+
+  .tdstyle{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  td:nth-child(1){
+    width:95%;
+    height:50vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-size:100% 130%;
+    background-position-y:top ;
+  }
+
   td:nth-child(2) {
-    width: 50%;
-    height: 50vh;
+    width: 95%;
+    height: 40vh;
+    font-size:7px;
+    line-height:9px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top:-1px;
+  }
+  .discountedprice{
+    text-decoration: line-through;
+    font-size: medium;
+  }
+  
+  .sellingprice{
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .star {
+    font-size: 14px;
+    color: rgba(3, 199, 143, 0.70);
   }
 }
 
@@ -247,7 +288,7 @@ td:nth-child(2) {
 
   td:nth-child(2) {
     width: 95%;
-    height: 40vh;
+    height: fit-content;
     font-size:7px;
     line-height:9px;
     border-top-left-radius: 0;

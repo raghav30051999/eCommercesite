@@ -265,7 +265,7 @@ font-size: x-large;
 
   td:nth-child(2) {
     width: 95%;
-    height: 40vh;
+    height: fit-content;
     font-size:7px;
     line-height:12px;
     border-top-left-radius: 0;
