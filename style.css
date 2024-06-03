@@ -227,6 +227,7 @@
 
 @media only screen and (max-width: 450px) {
   .headertext{
+    padding-top:4px;
     font-size: 18px;
     padding-left: 3vw;
     text-align: center;
