@@ -106,7 +106,7 @@ td, th {
   width: 30%;
   height:60vh;
   background-size: 100% 60%;
-  background-size:cover;
+  background-size: cover;
 }
 
 td:nth-child(2) {

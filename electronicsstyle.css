@@ -112,7 +112,7 @@ line-height:3vh;
   width: 30%;
   height:60vh;
   background-size: 100% 60%;
-  background-size:cover;
+  background-repeat:cover;
 }
 
 td:nth-child(2)
@@ -263,7 +263,7 @@ font-size: x-large;
 
   td:nth-child(2) {
     width: 95%;
-    height: 40vh;
+    height: fit-content;
     font-size:7px;
     line-height:10px;
     border-top-left-radius: 0;
